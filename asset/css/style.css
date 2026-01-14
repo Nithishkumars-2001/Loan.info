@@ -179,7 +179,7 @@ a {
 
 .side-navbar {
     position: fixed;
-    width: 280px;
+    width: 90%;
     height: 100%;
     top: 0;
     right: -100%;
@@ -942,4 +942,5 @@ a {
 
 :root {
     scroll-padding-top: 80px;
+
 }
