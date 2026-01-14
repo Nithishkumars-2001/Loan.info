@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loan Insights & Advice | Your Complete Loan Information Resource</title>
+
+    <meta name="description"
+        content="Complete loan information guide covering personal loans, business loans, home loans, vehicle loans, and agriculture loans. Learn eligibility, interest rates, benefits, and application process." />
+    <meta name="keywords"
+        content="loan information, personal loan, business loan, home loan, vehicle loan, agriculture loan, finance guide, loan eligibility, loan interest rates" />
+    <meta name="author" content="Loan Information Guide">
+    <meta name="robots" content="index, follow">
+
+    <!--My css-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" href="assets/img/company-logo.png" type="image/png">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(250, 246, 241);">
+
+    <!-- NavBar -->
+    <nav id="Navbar" class="navbar px-3 px-md-4 py-md-1">
+
+        <div class="website-name text-white">
+            <div class="logo-img">
+                <img src="assets/img/company-logo.png" alt="">
+            </div>
+
+            <a href="index.html" style="text-decoration: none;">
+                <h2 class="logo-style ps-3"> LOAN INFO </h2>
+            </a>
+        </div>
+
+        <div class="navbar-item">
+            <div class="navbar-menu pe-5">
+                <ul class="navbar-menu-links text-white">
+                    <a href="index.html">
+                        <li> Personal Loan </li>
+                    </a>
+
+                    <a href="loan_home.html">
+                        <li> Home Loan </li>
+                    </a>
+
+                    <a href="loan_vechicle.html">
+                        <li> Vehicle Loan </li>
+                    </a>
+
+                    <a href="loan_agriculture.html">
+                        <li> Agriculture Loan </li>
+                    </a>
+
+                    <a href="loan_business.html">
+                        <li> Business Loan </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="bi bi-list"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <aside class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <i class="fa-solid fa-user"></i> <a href="index.html"> Personal Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-house"></i> <a href="loan_home.html"> Home Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-car"></i> <a href="loan_vechicle.html"> Vehicle Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-tractor"></i> <a href="loan_agriculture.html">
+                    Agriculture Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-building"></i> <a href="loan_business.html"> Business
+                    Loan </a> </p>
+        </div>
+    </aside>
+
+    <!-- Page Header -->
+    <section class="page-header px-3">
+        <div class="page-header-content">
+            <h4>BUSINESS LOAN INSIGHTS</h4>
+            <h1>Understanding Business Loans</h1>
+        </div>
+    </section>
+
+    <!-- Agriculture Loan Section -->
+    <section class="home-loan-section px-2">
+        <div class="container position-relative" style="z-index: 1;">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-9">
+                    <h2 class="section-title fw-bold">Fuel Your Business Growth Today</h2>
+                    <p class="section-subtitle mb-4">
+                        Competitive interest rates • Flexible repayment options • Quick approval • Minimal documentation
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <!-- Left - Big Image + Content -->
+                <div class="col-lg-6">
+                    <div class="loan-card">
+                        <div class="loan-img-wrapper">
+                            <img src="asset/img/business_loan.jpg" alt="Business financing solutions">
+                        </div>
+
+                        <div class="p-4 p-lg-5">
+                            <span class="feature-badge">Starting @ 8.25%* p.a.</span>
+
+                            <h3 class="fw-bold my-3" style="color: #1a3c6d;">
+                                Boost Your <span class="highlight-text">Business Growth</span> Today
+                            </h3>
+
+                            <p class="text-muted mb-4">
+                                Whether you need funds for working capital, expansion, machinery, or new projects — our
+                                business loan solutions provide
+                                quick approvals, flexible EMIs, and competitive interest rates to help your enterprise
+                                thrive.
+                            </p>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">₹</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Up to 100%</h6>
+                                            <small>Funding</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">⏱</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">24–48 Hours</h6>
+                                            <small>Quick Approval*</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">📄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Minimal Docs</h6>
+                                            <small>Paperless process</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">🔄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Flexible Tenure</h6>
+                                            <small>Up to 5 years</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-apply text-white fw-bold shadow-lg">
+                                Check Eligibility →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right - Smaller cards / features -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+
+                        <img src="asset/img/business_loan2.jpeg" alt="Business loan features"
+                            style="width: 100%; height: 230px; border-radius: 20px;">
+
+                        <div class="col-12">
+                            <div class="loan-card p-4 p-lg-5">
+                                <h4 class="fw-bold mb-4" style="color: #1a3c6d;">Why Choose Our Business Loan?</h4>
+
+                                <ul class="list-unstyled feature-list">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Finance Up to 100% of Your Business Needs</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Quick Approval & Fast Disbursal</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Flexible EMI Options Up to 5 Years</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Minimal Documentation & Paperless Process</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">8.25%</h4>
+                                <h5 class="fw-bold">Interest Rate</h5>
+                                <small class="text-muted">Starting from</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">₹1 Crore+</h4>
+                                <h5 class="fw-bold">Disbursed Monthly</h5>
+                                <small class="text-muted">Across India</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Content Section  -->
+    <section class="text-content-section px-2 pt-3 pb-5">
+        <div class="container">
+            <h2>Boost Your Enterprise with the Perfect Loan</h2>
+
+            <p>
+                Financing your business operations, expansion, or working capital needs is one of the most important
+                financial
+                decisions for any entrepreneur, and understanding business loans is essential.
+                A business loan allows you to borrow funds to invest in infrastructure, inventory, equipment, marketing,
+                or daily
+                operational expenses,
+                and repay it over time with interest.
+                It’s important to understand the different types of business loans available, including working capital
+                loans,
+                term loans, equipment financing, MSME loans, and business loan top-up options.
+                Knowing the interest rates, repayment tenure, and eligibility criteria will help you make informed
+                decisions and
+                support sustainable business growth.
+            </p>
+
+            <p>
+                Before applying for a business loan, it is advisable to review your credit score, business turnover, and
+                financial
+                statements,
+                as these factors significantly influence loan approval and interest rates.
+                Compare offers from various banks, NBFCs, and financial institutions to find the most suitable business
+                loan for
+                your requirements.
+                Always calculate the total loan cost, including processing fees, interest, and applicable charges, to
+                avoid
+                unexpected financial pressure.
+                Additionally, consulting a financial advisor or business loan expert can help you choose the right
+                financing
+                solution and ensure a smooth approval process.
+            </p>
+
+            <p>
+                Business loans play a crucial role in helping companies manage cash flow, scale operations, and stay
+                competitive
+                in today’s fast-changing market.
+                Whether you are a startup, small business owner, or an established enterprise, timely access to funds
+                can help
+                you seize new opportunities, handle seasonal demand, or overcome short-term financial challenges.
+                From purchasing raw materials to hiring skilled employees and upgrading technology, a business loan
+                supports
+                both short-term stability and long-term growth.
+            </p>
+
+            <p>
+                One of the key advantages of a business loan is flexibility.
+                You can choose a loan structure that aligns with your business model, such as short-term working capital
+                loans
+                for daily operations or long-term term loans for expansion and infrastructure development.
+                Many lenders offer customized repayment options, allowing you to manage EMIs without affecting your cash
+                flow.
+                This ensures that your business continues to grow while maintaining financial discipline.
+            </p>
+
+            <p>
+                Eligibility for a business loan typically depends on factors such as business vintage, annual turnover,
+                profit
+                margins, credit score, and existing liabilities.
+                Maintaining accurate financial records, GST filings, and bank statements increases your chances of quick
+                approval
+                and better interest rates.
+                Businesses with a strong repayment history and stable revenue often benefit from higher loan limits and
+                faster
+                disbursal.
+            </p>
+
+            <p>
+                Interest rates on business loans may vary based on the lender, loan amount, repayment tenure, and risk
+                profile of
+                the business.
+                Choosing the right tenure is important, as longer tenures reduce EMI burden while shorter tenures help
+                minimize
+                overall interest cost.
+                Evaluating these factors carefully will help you select a loan that aligns with your financial goals and
+                repayment
+                capacity.
+            </p>
+
+            <p>
+                Applying for a business loan has become simpler with digital platforms and online applications.
+                Many financial institutions now offer paperless processes, instant eligibility checks, and quick
+                approvals.
+                However, it is still important to compare multiple lenders, read the terms and conditions carefully, and
+                understand prepayment charges or foreclosure penalties before finalizing the loan.
+            </p>
+
+            <p>
+                With the right business loan strategy, entrepreneurs can focus on innovation, customer satisfaction, and
+                sustainable growth without constant financial stress.
+                Proper planning, responsible borrowing, and timely repayment not only strengthen your business but also
+                improve
+                your credit profile, making future financing easier and more affordable.
+            </p>
+
+            <p>
+                Business loans play a crucial role in helping companies manage cash flow, scale operations, and stay
+                competitive
+                in today’s fast-changing market.
+                Whether you are a startup, small business owner, or an established enterprise, timely access to funds
+                can help
+                you seize new opportunities, handle seasonal demand, or overcome short-term financial challenges.
+                From purchasing raw materials to hiring skilled employees and upgrading technology, a business loan
+                supports
+                both short-term stability and long-term growth.
+            </p>
+
+            <p>
+                One of the key advantages of a business loan is flexibility.
+                You can choose a loan structure that aligns with your business model, such as short-term working capital
+                loans
+                for daily operations or long-term term loans for expansion and infrastructure development.
+                Many lenders offer customized repayment options, allowing you to manage EMIs without affecting your cash
+                flow.
+                This ensures that your business continues to grow while maintaining financial discipline.
+            </p>
+
+            <p>
+                Eligibility for a business loan typically depends on factors such as business vintage, annual turnover,
+                profit
+                margins, credit score, and existing liabilities.
+                Maintaining accurate financial records, GST filings, and bank statements increases your chances of quick
+                approval
+                and better interest rates.
+                Businesses with a strong repayment history and stable revenue often benefit from higher loan limits and
+                faster
+                disbursal.
+            </p>
+
+            <p>
+                Interest rates on business loans may vary based on the lender, loan amount, repayment tenure, and risk
+                profile of
+                the business.
+                Choosing the right tenure is important, as longer tenures reduce EMI burden while shorter tenures help
+                minimize
+                overall interest cost.
+                Evaluating these factors carefully will help you select a loan that aligns with your financial goals and
+                repayment
+                capacity.
+            </p>
+
+            <p>
+                Applying for a business loan has become simpler with digital platforms and online applications.
+                Many financial institutions now offer paperless processes, instant eligibility checks, and quick
+                approvals.
+                However, it is still important to compare multiple lenders, read the terms and conditions carefully, and
+                understand prepayment charges or foreclosure penalties before finalizing the loan.
+            </p>
+
+            <p>
+                With the right business loan strategy, entrepreneurs can focus on innovation, customer satisfaction, and
+                sustainable growth without constant financial stress.
+                Proper planning, responsible borrowing, and timely repayment not only strengthen your business but also
+                improve
+                your credit profile, making future financing easier and more affordable.
+            </p>
+
+            <p>
+                A business loan is more than just financial support — it is a strategic tool that helps businesses grow,
+                innovate, and stay resilient in competitive markets.
+                Whether you are planning to launch a new product, expand to a new location, or improve operational
+                efficiency,
+                access to timely funding ensures that your plans are not delayed due to cash constraints.
+                Business loans empower entrepreneurs to take calculated risks and convert ideas into profitable
+                ventures.
+            </p>
+
+            <p>
+                For small and medium-sized enterprises (SMEs), managing working capital is often one of the biggest
+                challenges.
+                Business loans help bridge the gap between receivables and payables, ensuring smooth day-to-day
+                operations.
+                With adequate working capital, businesses can maintain inventory levels, negotiate better supplier
+                terms,
+                and meet customer demand without interruptions.
+            </p>
+
+            <p>
+                Different types of business loans are designed to meet different needs.
+                Working capital loans support daily operations, term loans help with long-term investments,
+                equipment loans finance machinery and technology upgrades, and business expansion loans assist in
+                scaling operations.
+                Understanding the purpose of the loan helps in selecting the most suitable option with optimal repayment
+                terms.
+            </p>
+
+            <p>
+                Documentation and eligibility criteria for business loans have become more streamlined in recent years.
+                Most lenders evaluate factors such as business stability, cash flow, profitability, and
+                creditworthiness.
+                Having updated financial statements, GST returns, income tax filings, and bank records not only speeds
+                up approval
+                but also helps secure better interest rates and higher loan amounts.
+            </p>
+
+            <p>
+                Repayment discipline plays a vital role in maintaining a healthy financial profile.
+                Timely EMI payments improve your business credit score, build trust with lenders,
+                and open doors to higher credit limits and preferential loan terms in the future.
+                Businesses that manage debt responsibly often find it easier to access funding during critical growth
+                phases.
+            </p>
+
+            <p>
+                Before finalizing a business loan, it is advisable to carefully review the loan agreement.
+                Pay attention to processing fees, interest calculation methods, prepayment options,
+                and any hidden charges that may affect the total cost of borrowing.
+                A well-informed decision helps prevent financial strain and ensures that the loan adds value to your
+                business.
+            </p>
+
+            <p>
+                Ultimately, the right business loan supports sustainable growth rather than short-term relief.
+                When used strategically, borrowed funds can generate higher returns, improve operational efficiency,
+                and strengthen your market position.
+                With proper planning and expert guidance, a business loan becomes a powerful catalyst for long-term
+                success.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="loan-footer px-2">
+        <div class="container">
+            <div class="row">
+
+                <!-- About Loan -->
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Loan Information</h5>
+                    <p class="pe-0 pe-md-3">
+                        Simple and transparent loan information to help you understand eligibility,
+                        interest rates, repayment tenure, and monthly EMI planning before applying.
+                        Learn how different loan types work, what documents are required, and how
+                        responsible borrowing can help you manage your finances better without
+                        unnecessary stress.
+                    </p>
+                </div>
+
+                <!-- Loan Types -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Types</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"> Personal Loan </a></li>
+                        <li><a href="loan_home.html"> Home Loan </a></li>
+                        <li><a href="loan_vechicle.html"> Vehicle Loan </a></li>
+                        <li><a href="loan_agriculture.html"> Agriculture Loan </a></li>
+                        <li><a href="loan_business.html"> Business Loan </a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Resources -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Eligibility Criteria</a></li>
+                        <li><a href="#">Interest Rates</a></li>
+                        <li><a href="#">EMI Calculator</a></li>
+                        <li><a href="#">Repayment Guide</a></li>
+                        <li><a href="#">Loan Documents</a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Process -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Process</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Apply Online</a></li>
+                        <li><a href="#">Verification</a></li>
+                        <li><a href="#">Approval Time</a></li>
+                        <li><a href="#">Disbursement</a></li>
+                    </ul>
+                </div>
+
+                <!-- Financial Tips -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Financial Tips</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Improve Credit Score</a></li>
+                        <li><a href="#">EMI Planning</a></li>
+                        <li><a href="#">Debt Management</a></li>
+                        <li><a href="#">Savings Guide</a></li>
+                        <li><a href="#">Smart Borrowing</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom text-center">
+                <p><i class="fa-regular fa-copyright"></i> 2026 Loan Info. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
+
+</body>
+
+</html>

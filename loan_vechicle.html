@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loan Insights & Advice | Your Complete Loan Information Resource</title>
+
+    <meta name="description"
+        content="Complete loan information guide covering personal loans, business loans, home loans, vehicle loans, and agriculture loans. Learn eligibility, interest rates, benefits, and application process." />
+    <meta name="keywords"
+        content="loan information, personal loan, business loan, home loan, vehicle loan, agriculture loan, finance guide, loan eligibility, loan interest rates" />
+    <meta name="author" content="Loan Information Guide">
+    <meta name="robots" content="index, follow">
+
+    <!--My css-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" href="assets/img/company-logo.png" type="image/png">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(250, 246, 241);">
+
+    <!-- NavBar -->
+    <nav id="Navbar" class="navbar px-3 px-md-4 py-md-1">
+
+        <div class="website-name text-white">
+            <div class="logo-img">
+                <img src="assets/img/company-logo.png" alt="">
+            </div>
+
+            <a href="index.html" style="text-decoration: none;">
+                <h2 class="logo-style ps-3"> LOAN INFO </h2>
+            </a>
+        </div>
+
+        <div class="navbar-item">
+            <div class="navbar-menu pe-5">
+                <ul class="navbar-menu-links text-white">
+                    <a href="index.html">
+                        <li> Personal Loan </li>
+                    </a>
+
+                    <a href="loan_home.html">
+                        <li> Home Loan </li>
+                    </a>
+
+                    <a href="loan_vechicle.html">
+                        <li> Vehicle Loan </li>
+                    </a>
+
+                    <a href="loan_agriculture.html">
+                        <li> Agriculture Loan </li>
+                    </a>
+
+                    <a href="loan_business.html">
+                        <li> Business Loan </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="bi bi-list"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <aside class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <i class="fa-solid fa-user"></i> <a href="index.html"> Personal Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-house"></i> <a href="loan_home.html"> Home Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-car"></i> <a href="loan_vechicle.html"> Vehicle Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-tractor"></i> <a href="loan_agriculture.html">
+                    Agriculture Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-building"></i> <a href="loan_business.html"> Business
+                    Loan </a> </p>
+        </div>
+    </aside>
+
+    <!-- Page Header -->
+    <section class="page-header px-3">
+        <div class="page-header-content">
+            <h4>VEHICLE LOAN INSIGHTS</h4>
+            <h1>Understanding Vehicle Loans</h1>
+        </div>
+    </section>
+
+    <!-- Home Loan Section -->
+    <section class="home-loan-section px-2">
+        <div class="container position-relative" style="z-index: 1;">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-9">
+                    <h2 class="section-title fw-bold">Get Your Vehicle on the Road Today</h2>
+                    <p class="section-subtitle mb-4">
+                        Low interest rates • Flexible EMIs • Quick approval • Minimal paperwork
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <!-- Left - Big Image + Content -->
+                <div class="col-lg-6">
+                    <div class="loan-card">
+                        <div class="loan-img-wrapper">
+                            <img src="asset/img/vehicle_loan.jpg" alt="New car and bike financing">
+                        </div>
+
+                        <div class="p-4 p-lg-5">
+                            <span class="feature-badge">Starting @ 9.50%* p.a.</span>
+
+                            <h3 class="fw-bold my-3" style="color: #1a3c6d;">
+                                Finance Your <span class="highlight-text">Dream Vehicle</span> Today
+                            </h3>
+
+                            <p class="text-muted mb-4">
+                                Whether it’s your first car, bike, or an upgrade to a newer model — our vehicle loan
+                                solutions provide
+                                quick approvals, flexible EMIs, and competitive interest rates to get you on the road
+                                faster.
+                            </p>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">₹</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Up to 100%</h6>
+                                            <small>Funding</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">⏱</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">24 Hours</h6>
+                                            <small>Quick Approval*</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">📄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Minimal Docs</h6>
+                                            <small>Paperless process</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">🔄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Flexible Tenure</h6>
+                                            <small>Up to 7 years</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-apply text-white fw-bold shadow-lg">
+                                Check Eligibility →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right - Smaller cards / features -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+
+                        <img src="asset/img/vehicle_loan2.jpeg" alt="Vehicle loan features"
+                            style="width: 100%; height: 230px; border-radius: 20px;">
+
+                        <div class="col-12">
+                            <div class="loan-card p-4 p-lg-5">
+                                <h4 class="fw-bold mb-4" style="color: #1a3c6d;">Why Choose Our Vehicle Loan?</h4>
+
+                                <ul class="list-unstyled feature-list">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Finance 100% of Your Vehicle Cost</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Quick Approval & Same-Day Disbursal</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Flexible EMI Options Up to 7 Years</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Minimal Documentation & Paperless Process</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">9.50%</h4>
+                                <h5 class="fw-bold">Interest Rate</h5>
+                                <small class="text-muted">Starting from</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">₹30 Lakhs+</h4>
+                                <h5 class="fw-bold">Disbursed Monthly</h5>
+                                <small class="text-muted">Across India</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Content Section  -->
+    <section class="text-content-section px-2 pt-3 pb-5">
+        <div class="container">
+            <h2>Smart Strategies to Finance Your Car or Bike</h2>
+
+            <p>
+                Purchasing a vehicle is one of the major financial decisions you will make, and understanding vehicle
+                loans is essential.
+                A vehicle loan allows you to borrow money to buy your car, bike, or any other vehicle and repay it over
+                time with interest.
+                It’s important to know the types of vehicle loans available, including new vehicle loans, used vehicle
+                loans, and loan top-up options.
+                Understanding interest rates, repayment tenure, and eligibility criteria will help you make an informed
+                decision.
+            </p>
+
+            <p>
+                Before applying for a vehicle loan, it is recommended to check your credit score and improve it if
+                necessary,
+                as it can significantly affect the interest rates you are offered.
+                Compare different banks and financial institutions to find the most suitable vehicle loan for your
+                needs.
+                Always calculate the total cost of the loan, including processing fees and interest, to avoid any
+                surprises in the future.
+                Additionally, consider consulting a financial advisor or loan specialist to guide you through the
+                application and approval process.
+            </p>
+
+            <p>
+                Vehicle loans are a flexible way to finance your dream car, bike, or any other vehicle.
+                Unlike large purchases that require you to save for months or years, a vehicle loan gives you immediate
+                access to funds, allowing you to drive away with your chosen vehicle quickly.
+                Whether it’s a brand-new model or a used vehicle, vehicle loans are designed to make ownership
+                hassle-free.
+            </p>
+
+            <p>
+                There are different types of vehicle loans available to suit various needs. New vehicle loans are
+                specifically for purchasing brand-new cars or bikes, while used vehicle loans are tailored for pre-owned
+                vehicles.
+                Some lenders also offer top-up loans, allowing you to borrow extra funds on an existing vehicle loan for
+                upgrades or repairs.
+            </p>
+
+            <p>
+                Vehicle loan eligibility depends on factors like your age, income, employment status, existing debts,
+                and credit score.
+                Maintaining a good credit score helps secure better interest rates and faster approvals.
+                Many lenders provide online eligibility calculators, so you can quickly check if you qualify for a loan.
+            </p>
+
+            <p>
+                Interest rates on vehicle loans vary depending on the type of loan, tenure, and borrower profile.
+                Fixed-rate loans provide stable EMIs throughout the loan period, while floating-rate loans may change
+                with market interest rates.
+                It’s important to compare rates from multiple lenders to get the most competitive deal.
+            </p>
+
+            <p>
+                Choosing the right loan amount is essential. Borrow only what you need to avoid higher EMIs and
+                unnecessary debt.
+                Consider your monthly income, existing expenses, and financial commitments to ensure the EMI fits
+                comfortably within your budget.
+            </p>
+
+            <p>
+                Vehicle loans also come with flexible tenures, usually ranging from 1 to 7 years.
+                Longer tenures reduce your monthly EMI but may increase total interest paid, while shorter tenures
+                increase EMI but reduce total interest.
+                Evaluate your repayment capacity before deciding the tenure.
+            </p>
+
+            <p>
+                Many lenders now offer paperless applications and instant approvals.
+                With minimal documentation, your vehicle loan can be processed quickly, making it ideal for emergencies
+                or urgent purchases.
+            </p>
+
+            <p>
+                Prepayment options are another advantage of modern vehicle loans.
+                Some lenders allow you to pay off the loan early without penalties, helping you save on interest and
+                clear your debt faster.
+                Always check for hidden charges before opting for prepayment.
+            </p>
+
+            <p>
+                Vehicle loans can also be used strategically for financial planning.
+                For example, upgrading from an old vehicle to a new one or consolidating multiple loans into a single
+                manageable EMI can simplify finances and improve affordability.
+            </p>
+
+            <p>
+                Responsible borrowing is key. Late payments can negatively impact your credit score, making future loans
+                more expensive or difficult to obtain.
+                Setting up automatic EMIs or reminders ensures timely repayment and helps maintain a strong credit
+                history.
+            </p>
+
+            <p>
+                Vehicle loans are available with special schemes for salaried professionals, self-employed individuals,
+                women borrowers, and senior citizens.
+                These schemes often offer lower interest rates, higher loan amounts, or faster approvals.
+                Checking eligibility for these schemes can maximize benefits and improve affordability.
+            </p>
+
+            <p>
+                In addition to financial benefits, vehicle loans can help you maintain liquidity.
+                Instead of using your savings to buy a vehicle outright, you can preserve your funds for emergencies,
+                investments, or other financial goals, while paying off the loan in convenient EMIs.
+            </p>
+
+            <p>
+                By understanding loan types, eligibility criteria, interest rates, repayment options, prepayment
+                facilities, and special schemes, you can make informed decisions.
+                Vehicle loans, when used responsibly, provide a convenient way to own your dream vehicle without
+                straining your finances.
+            </p>
+
+            <p>
+                Remember, a vehicle loan is not just about buying a car or bike—it’s a tool to achieve your mobility
+                goals smartly and efficiently.
+                Plan carefully, compare lenders, and choose the loan that best fits your needs for a stress-free
+                experience.
+            </p>
+
+            <p>
+                Vehicle loans are an essential financial solution for anyone looking to buy a car, bike, or commercial
+                vehicle without depleting their savings.
+                With a vehicle loan, you can access the funds needed immediately, while repaying the borrowed amount in
+                convenient EMIs.
+                This makes vehicle ownership accessible and manageable for both salaried and self-employed individuals.
+            </p>
+
+            <p>
+                When applying for a vehicle loan, understanding the eligibility criteria is key.
+                Lenders typically consider your age, income, employment stability, existing debts, and credit history.
+                Applicants with a high credit score are more likely to get loans at lower interest rates with faster
+                approvals.
+            </p>
+
+            <p>
+                Vehicle loans can be for new or used vehicles. New vehicle loans often have slightly lower interest
+                rates, whereas loans for pre-owned vehicles may require a higher down payment and have shorter tenures.
+                Comparing loan options for both new and used vehicles helps you choose the most cost-effective solution.
+            </p>
+
+            <p>
+                Interest rates are a major factor in calculating EMIs and the total cost of the loan.
+                Fixed-rate vehicle loans ensure your EMI remains stable, while floating-rate loans may fluctuate based
+                on market trends.
+                Choosing the right rate type depends on your risk tolerance and financial stability.
+            </p>
+
+            <p>
+                The tenure of the loan directly impacts your monthly EMIs and total interest paid.
+                Longer tenures reduce the EMI but increase the total interest, while shorter tenures increase the EMI
+                but save on interest.
+                Balancing between comfortable monthly payments and minimizing interest costs is crucial.
+            </p>
+
+            <p>
+                Vehicle loans also come with optional benefits like top-up loans, allowing you to borrow additional
+                funds on an existing loan for repairs, upgrades, or add-ons.
+                Some lenders also provide insurance-linked vehicle loans that combine loan repayment with insurance
+                coverage, providing extra security.
+            </p>
+
+            <p>
+                It’s essential to plan your vehicle loan carefully.
+                Borrowing more than needed can lead to financial stress, while under-borrowing may leave you short of
+                funds for the vehicle purchase.
+                Proper financial planning ensures your EMIs fit comfortably within your monthly budget.
+            </p>
+
+            <p>
+                Lenders usually require minimal documentation, such as identity proof, income proof, bank statements,
+                and vehicle details.
+                Many banks and NBFCs now offer completely paperless processes, making loan approval quick and
+                convenient.
+            </p>
+
+            <p>
+                Prepayment and part-payment options allow borrowers to reduce their interest burden by paying off the
+                loan early or partially.
+                Understanding the prepayment policies and any applicable charges ensures you can save money over the
+                loan tenure.
+            </p>
+
+            <p>
+                Vehicle loans are not only for personal use. Business owners can avail commercial vehicle loans to buy
+                vehicles for operations, delivery, or transportation purposes.
+                These loans often have tailored interest rates, higher loan amounts, and flexible tenures to meet
+                business needs.
+            </p>
+
+            <p>
+                Responsible repayment is critical. Missing EMIs or delaying payments can affect your credit score,
+                making future borrowing more expensive or difficult.
+                Using auto-debit, reminders, or mobile banking can help ensure timely payments and maintain a strong
+                financial record.
+            </p>
+
+            <p>
+                Vehicle loans also preserve your savings, allowing you to invest in other financial goals or maintain an
+                emergency fund.
+                By leveraging EMIs instead of paying the full amount upfront, you can manage liquidity effectively while
+                still enjoying your new vehicle.
+            </p>
+
+            <p>
+                Consulting a financial advisor or loan specialist can help you understand the best loan option for your
+                needs.
+                Advisors can guide you on interest rates, EMI calculation, tenure selection, prepayment options, and
+                hidden charges, ensuring a smooth loan experience.
+            </p>
+
+            <p>
+                Comparing multiple lenders is essential. Interest rates, processing fees, tenure options, and service
+                quality vary across banks and NBFCs.
+                Using online comparison tools and reading customer reviews can help you choose a lender that offers the
+                best overall deal.
+            </p>
+
+            <p>
+                For first-time vehicle buyers, a loan can make the process simpler and faster.
+                It allows buyers to focus on selecting the right vehicle without worrying about immediate full payment.
+                Carefully selecting a loan suited to your financial capacity ensures a positive borrowing experience.
+            </p>
+
+            <p>
+                In summary, vehicle loans are a smart financial solution for anyone looking to own a car, bike, or
+                commercial vehicle.
+                By understanding loan types, eligibility, interest rates, tenure, prepayment options, and lender
+                policies, you can make informed decisions, minimize costs, and enjoy your vehicle without financial
+                stress.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="loan-footer px-2">
+        <div class="container">
+            <div class="row">
+
+                <!-- About Loan -->
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Loan Information</h5>
+                    <p class="pe-0 pe-md-3">
+                        Simple and transparent loan information to help you understand eligibility,
+                        interest rates, repayment tenure, and monthly EMI planning before applying.
+                        Learn how different loan types work, what documents are required, and how
+                        responsible borrowing can help you manage your finances better without
+                        unnecessary stress.
+                    </p>
+                </div>
+
+                <!-- Loan Types -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Types</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"> Personal Loan </a></li>
+                        <li><a href="loan_home.html"> Home Loan </a></li>
+                        <li><a href="loan_vechicle.html"> Vehicle Loan </a></li>
+                        <li><a href="loan_agriculture.html"> Agriculture Loan </a></li>
+                        <li><a href="loan_business.html"> Business Loan </a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Resources -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Eligibility Criteria</a></li>
+                        <li><a href="#">Interest Rates</a></li>
+                        <li><a href="#">EMI Calculator</a></li>
+                        <li><a href="#">Repayment Guide</a></li>
+                        <li><a href="#">Loan Documents</a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Process -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Process</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Apply Online</a></li>
+                        <li><a href="#">Verification</a></li>
+                        <li><a href="#">Approval Time</a></li>
+                        <li><a href="#">Disbursement</a></li>
+                    </ul>
+                </div>
+
+                <!-- Financial Tips -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Financial Tips</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Improve Credit Score</a></li>
+                        <li><a href="#">EMI Planning</a></li>
+                        <li><a href="#">Debt Management</a></li>
+                        <li><a href="#">Savings Guide</a></li>
+                        <li><a href="#">Smart Borrowing</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom text-center">
+                <p><i class="fa-regular fa-copyright"></i> 2026 Loan Info. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
+
+</body>
+
+</html>

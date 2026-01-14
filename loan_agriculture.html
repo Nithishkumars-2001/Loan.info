@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loan Insights & Advice | Your Complete Loan Information Resource</title>
+
+    <meta name="description"
+        content="Complete loan information guide covering personal loans, business loans, home loans, vehicle loans, and agriculture loans. Learn eligibility, interest rates, benefits, and application process." />
+    <meta name="keywords"
+        content="loan information, personal loan, business loan, home loan, vehicle loan, agriculture loan, finance guide, loan eligibility, loan interest rates" />
+    <meta name="author" content="Loan Information Guide">
+    <meta name="robots" content="index, follow">
+
+    <!--My css-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" href="assets/img/company-logo.png" type="image/png">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(250, 246, 241);">
+
+    <!-- NavBar -->
+    <nav id="Navbar" class="navbar px-3 px-md-4 py-md-1">
+
+        <div class="website-name text-white">
+            <div class="logo-img">
+                <img src="assets/img/company-logo.png" alt="">
+            </div>
+
+            <a href="index.html" style="text-decoration: none;">
+                <h2 class="logo-style ps-3"> LOAN INFO </h2>
+            </a>
+        </div>
+
+        <div class="navbar-item">
+            <div class="navbar-menu pe-5">
+                <ul class="navbar-menu-links text-white">
+                    <a href="index.html">
+                        <li> Personal Loan </li>
+                    </a>
+
+                    <a href="loan_home.html">
+                        <li> Home Loan </li>
+                    </a>
+
+                    <a href="loan_vechicle.html">
+                        <li> Vehicle Loan </li>
+                    </a>
+
+                    <a href="loan_agriculture.html">
+                        <li> Agriculture Loan </li>
+                    </a>
+
+                    <a href="loan_business.html">
+                        <li> Business Loan </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="bi bi-list"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <aside class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <i class="fa-solid fa-user"></i> <a href="index.html"> Personal Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-house"></i> <a href="loan_home.html"> Home Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-car"></i> <a href="loan_vechicle.html"> Vehicle Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-tractor"></i> <a href="loan_agriculture.html">
+                    Agriculture Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-building"></i> <a href="loan_business.html"> Business
+                    Loan </a> </p>
+        </div>
+    </aside>
+
+    <!-- Page Header -->
+    <section class="page-header px-3">
+        <div class="page-header-content">
+            <h4>AGRICULTURE LOAN INSIGHTS</h4>
+            <h1>Understanding Agriculture Loans</h1>
+        </div>
+    </section>
+
+    <!-- Agriculture Loan Section -->
+    <section class="home-loan-section px-2">
+        <div class="container position-relative" style="z-index: 1;">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-9">
+                    <h2 class="section-title fw-bold">Get Your Vehicle on the Road Today</h2>
+                    <p class="section-subtitle mb-4">
+                        Low interest rates • Flexible EMIs • Quick approval • Minimal paperwork
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <!-- Left - Big Image + Content -->
+                <div class="col-lg-6">
+                    <div class="loan-card">
+                        <div class="loan-img-wrapper">
+                            <img src="asset/img/agriculture_loan.jpeg" alt="Farm and crop financing">
+                        </div>
+
+                        <div class="p-4 p-lg-5">
+                            <span class="feature-badge">Starting @ 7.50%* p.a.</span>
+
+                            <h3 class="fw-bold my-3" style="color: #1a3c6d;">
+                                Grow Your <span class="highlight-text">Farm & Crops</span> Today
+                            </h3>
+
+                            <p class="text-muted mb-4">
+                                Whether you need funds for crop cultivation, farm equipment, or irrigation systems — our
+                                agriculture loan solutions provide
+                                easy approvals, flexible EMIs, and competitive interest rates to help your farm thrive.
+                            </p>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">₹</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Up to 100%</h6>
+                                            <small>Funding</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">⏱</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">48 Hours</h6>
+                                            <small>Quick Approval*</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">📄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Minimal Docs</h6>
+                                            <small>Paperless process</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">🔄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Flexible Tenure</h6>
+                                            <small>Up to 10 years</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-apply text-white fw-bold shadow-lg">
+                                Check Eligibility →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right - Smaller cards / features -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+
+                        <img src="asset/img/agriculture_loan2.jpeg" alt="Agriculture loan features"
+                            style="width: 100%; height: 230px; border-radius: 20px;">
+
+                        <div class="col-12">
+                            <div class="loan-card p-4 p-lg-5">
+                                <h4 class="fw-bold mb-4" style="color: #1a3c6d;">Why Choose Our Agriculture Loan?</h4>
+
+                                <ul class="list-unstyled feature-list">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Finance Up to 100% of Your Farming Needs</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Quick Approval & Fast Disbursal</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Flexible EMI Options Up to 10 Years</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Minimal Documentation & Paperless Process</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">7.50%</h4>
+                                <h5 class="fw-bold">Interest Rate</h5>
+                                <small class="text-muted">Starting from</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">₹50 Lakhs+</h4>
+                                <h5 class="fw-bold">Disbursed Monthly</h5>
+                                <small class="text-muted">Across India</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Content Section  -->
+    <section class="text-content-section px-2 pt-3 pb-5">
+        <div class="container">
+            <h2>Grow Your Farm with the Right Financing</h2>
+
+            <p>
+                Financing your farm, crops, or agricultural equipment is one of the key financial decisions for any
+                farmer or agripreneur,
+                and understanding agriculture loans is essential.
+                An agriculture loan allows you to borrow money to invest in seeds, fertilizers, machinery, irrigation
+                systems, or livestock,
+                and repay it over time with interest.
+                It’s important to know the types of agriculture loans available, including crop loans, equipment loans,
+                dairy/farm loans,
+                and loan top-up options.
+                Understanding interest rates, repayment tenure, and eligibility criteria will help you make informed
+                financial decisions for your farm.
+            </p>
+
+            <p>
+                Before applying for an agriculture loan, it is recommended to check your credit and income status,
+                as it can significantly affect the interest rates and approval process.
+                Compare different banks, cooperative societies, and financial institutions to find the most suitable
+                agriculture loan for your needs.
+                Always calculate the total cost of the loan, including processing fees, interest, and insurance (if
+                applicable), to avoid future surprises.
+                Additionally, consider consulting an agricultural finance advisor or loan specialist to guide you
+                through the application and approval process.
+            </p>
+
+            <p>
+                Many agriculture loans also come with government subsidies, reduced interest rates, and special schemes
+                for small and marginal farmers.
+                These programs can reduce financial burden and encourage modern farming practices.
+                Checking eligibility for such schemes can significantly improve affordability and support your farm
+                growth.
+            </p>
+
+            <p>
+                Responsible loan management is crucial. Timely repayment not only maintains your creditworthiness but
+                also allows you to access higher loan amounts in the future.
+                Planning EMIs based on crop cycles or seasonal income ensures smooth repayment without affecting farm
+                operations.
+            </p>
+
+            <p>
+                Agriculture loans can also help improve farm productivity.
+                By investing in modern machinery, high-quality seeds, and irrigation systems through a loan, farmers can
+                increase crop yield, reduce manual labor, and boost profitability.
+                Smart use of loans can transform farming into a sustainable and profitable business.
+            </p>
+
+            <p>
+                Agriculture loans are designed to support farmers, agripreneurs, and rural businesses in managing their
+                financial needs efficiently.
+                These loans can be used for various purposes, such as purchasing seeds, fertilizers, farm machinery,
+                irrigation equipment, or livestock.
+                They also support working capital requirements and help farmers manage seasonal expenses effectively.
+            </p>
+
+            <p>
+                Different types of agriculture loans cater to different farming requirements.
+                Crop loans provide short-term financing for seeds, fertilizers, and labor, while equipment or machinery
+                loans are long-term loans for tractors, harvesters, and irrigation systems.
+                Dairy or livestock loans help farmers invest in cattle, poultry, or aquaculture.
+                Understanding the right type of loan for your requirement ensures cost-effective borrowing and timely
+                repayment.
+            </p>
+
+            <p>
+                Many banks and cooperative societies offer special interest rates and government-backed subsidy schemes
+                for agriculture loans.
+                These schemes reduce the financial burden, encourage modern farming practices, and promote rural
+                development.
+                Farmers should check their eligibility for such schemes to maximize benefits and reduce the cost of
+                borrowing.
+            </p>
+
+            <p>
+                Loan eligibility typically depends on factors like farm size, annual income, crop type, credit history,
+                and age.
+                Maintaining good financial records and a clear credit history helps in faster approvals and better
+                interest rates.
+                Cooperative banks and regional rural banks often provide simplified loan processes for small and
+                marginal farmers.
+            </p>
+
+            <p>
+                Repayment tenure for agriculture loans varies depending on the type of loan and crop cycle.
+                Short-term crop loans are usually repaid within 6 to 12 months, while long-term loans for equipment,
+                livestock, or land development can extend up to 10 years.
+                Choosing a tenure aligned with your cash flow ensures stress-free repayment.
+            </p>
+
+            <p>
+                Agriculture loans come with additional benefits such as prepayment options, top-up facilities, and
+                insurance coverage.
+                Prepayment allows farmers to clear the loan early without extra charges, while top-up loans help in
+                additional funding for farm expansion or emergencies.
+                Loan-linked insurance protects both the farmer and the lender against unforeseen losses due to crop
+                failure, natural calamities, or livestock diseases.
+            </p>
+
+            <p>
+                Smart borrowing strategies are essential for maximizing the benefits of an agriculture loan.
+                Farmers should avoid borrowing more than necessary, plan EMIs according to seasonal income, and maintain
+                a buffer for contingencies.
+                Proper planning ensures that the loan supports farm growth rather than becoming a financial burden.
+            </p>
+
+            <p>
+                Agriculture loans not only provide financial support but also help improve productivity.
+                By investing in modern farming techniques, quality inputs, and efficient machinery, farmers can increase
+                yield, reduce labor costs, and improve profitability.
+                Responsible use of loans can transform farming into a sustainable and profitable business.
+            </p>
+
+            <p>
+                Consulting financial advisors, agricultural loan specialists, or local bank representatives can help
+                farmers choose the best loan options.
+                They can guide you on interest rates, EMI calculation, eligibility, documentation, and government
+                schemes, ensuring a smooth borrowing experience.
+            </p>
+
+            <p>
+                In conclusion, agriculture loans are a vital tool for modern farming, enabling farmers to invest in
+                their land, crops, and livestock efficiently.
+                By understanding loan types, eligibility, interest rates, repayment options, prepayment facilities, and
+                government schemes, farmers can make informed decisions, boost farm productivity, and secure financial
+                stability.
+            </p>
+
+            <p>
+                Remember, an agriculture loan is more than just borrowing money — it’s an investment in your farm’s
+                future.
+                Plan carefully, choose the right loan type, and use it responsibly to achieve sustainable growth and
+                prosperity in your agricultural endeavors.
+            </p>
+
+            <p>
+                Agriculture loans play a crucial role in empowering farmers and agripreneurs to achieve their farming
+                goals efficiently.
+                They provide access to funds needed for seeds, fertilizers, machinery, irrigation systems, storage
+                facilities, and livestock.
+                By availing an agriculture loan, farmers can modernize their operations, increase yield, and improve
+                profitability without straining their personal finances.
+            </p>
+
+            <p>
+                There are several types of agriculture loans designed to meet specific farming requirements.
+                Short-term crop loans cover expenses for sowing, fertilizers, and labor.
+                Medium-term loans are used for purchasing equipment like tractors, pumps, and irrigation systems.
+                Long-term loans finance land development, greenhouse projects, or livestock expansion.
+                Farmers should select the loan type that matches their operational needs and repayment capacity.
+            </p>
+
+            <p>
+                Many agriculture loans are supported by government schemes that offer interest subsidies or low-rate
+                loans for small and marginal farmers.
+                Programs like Kisan Credit Card (KCC) and NABARD schemes provide easy access to credit and encourage
+                sustainable farming practices.
+                Checking eligibility and applying for these schemes can significantly reduce borrowing costs and provide
+                financial security.
+            </p>
+
+            <p>
+                Eligibility for an agriculture loan typically depends on factors such as farm size, type of crop or
+                livestock, annual income, credit history, and age of the applicant.
+                Cooperative banks, regional rural banks, and nationalized banks often provide simplified procedures for
+                small farmers, making the process faster and hassle-free.
+            </p>
+
+            <p>
+                Interest rates for agriculture loans can vary depending on the type of loan, lender, and whether the
+                loan is subsidized.
+                Fixed-rate loans offer predictable EMIs, whereas floating-rate loans may fluctuate with market
+                conditions.
+                Selecting the right interest structure is important for financial planning and managing repayment
+                comfortably.
+            </p>
+
+            <p>
+                The repayment tenure of agriculture loans is usually aligned with the crop cycle or project timeline.
+                Short-term crop loans may need repayment within 6 to 12 months, while medium and long-term loans can
+                extend up to 10 years.
+                Planning repayment schedules according to harvest cycles or seasonal income helps farmers avoid
+                defaults.
+            </p>
+
+            <p>
+                Agriculture loans often come with extra benefits like prepayment, top-up facilities, and insurance
+                coverage.
+                Prepayment allows borrowers to repay the loan early without penalties, top-up loans provide additional
+                funds for expansion or emergencies,
+                and insurance protects the farmer and lender against crop failure, natural calamities, or livestock
+                disease.
+            </p>
+
+            <p>
+                Farmers should adopt smart borrowing strategies to maximize the advantages of agriculture loans.
+                Borrow only what is necessary, plan EMIs according to cash flow, maintain proper records, and have a
+                contingency buffer.
+                This ensures that the loan serves as a growth tool rather than a financial burden.
+            </p>
+
+            <p>
+                Responsible loan management can improve a farmer’s credit history, making future borrowing easier and
+                cheaper.
+                Timely EMI payments, regular communication with lenders, and maintaining transparent financial records
+                help secure a strong financial profile.
+            </p>
+
+            <p>
+                Agriculture loans also enable the adoption of modern and sustainable farming practices.
+                Investment in high-quality seeds, organic fertilizers, precision irrigation, and mechanized tools can
+                increase crop yield, reduce manual labor, and improve efficiency.
+                Loans act as a catalyst for modernization, productivity, and long-term profitability.
+            </p>
+
+            <p>
+                Access to an agriculture loan can also support diversification. Farmers can invest in dairy, poultry,
+                aquaculture, or horticulture alongside traditional crops.
+                Diversification reduces risk, improves income stability, and opens opportunities for value-added
+                products and new markets.
+            </p>
+
+            <p>
+                Consulting agricultural finance experts, bank representatives, or loan specialists can guide farmers in
+                selecting the best loan product.
+                They can provide insights on interest rates, EMIs, tenure, eligibility, government schemes, insurance
+                coverage, and documentation, ensuring a smooth borrowing experience.
+            </p>
+
+            <p>
+                Technology has also simplified the agriculture loan process. Many banks offer online applications,
+                digital document submission, and instant approvals for eligible farmers.
+                Using digital platforms reduces paperwork, speeds up disbursal, and ensures transparency in loan
+                processing.
+            </p>
+
+            <p>
+                In summary, agriculture loans are more than just financial assistance — they are tools that help farmers
+                modernize operations, increase productivity, and secure financial stability.
+                Understanding loan types, eligibility, government schemes, interest rates, repayment options, and risk
+                mitigation strategies ensures informed decision-making and sustainable growth.
+            </p>
+
+            <p>
+                By strategically leveraging agriculture loans, farmers can achieve long-term success, improve
+                livelihoods, and contribute to the development of the agricultural sector.
+                Responsible borrowing, planning, and utilization of loan funds can transform farming into a profitable
+                and sustainable venture.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="loan-footer px-2">
+        <div class="container">
+            <div class="row">
+
+                <!-- About Loan -->
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Loan Information</h5>
+                    <p class="pe-0 pe-md-3">
+                        Simple and transparent loan information to help you understand eligibility,
+                        interest rates, repayment tenure, and monthly EMI planning before applying.
+                        Learn how different loan types work, what documents are required, and how
+                        responsible borrowing can help you manage your finances better without
+                        unnecessary stress.
+                    </p>
+                </div>
+
+                <!-- Loan Types -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Types</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"> Personal Loan </a></li>
+                        <li><a href="loan_home.html"> Home Loan </a></li>
+                        <li><a href="loan_vechicle.html"> Vehicle Loan </a></li>
+                        <li><a href="loan_agriculture.html"> Agriculture Loan </a></li>
+                        <li><a href="loan_business.html"> Business Loan </a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Resources -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Eligibility Criteria</a></li>
+                        <li><a href="#">Interest Rates</a></li>
+                        <li><a href="#">EMI Calculator</a></li>
+                        <li><a href="#">Repayment Guide</a></li>
+                        <li><a href="#">Loan Documents</a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Process -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Process</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Apply Online</a></li>
+                        <li><a href="#">Verification</a></li>
+                        <li><a href="#">Approval Time</a></li>
+                        <li><a href="#">Disbursement</a></li>
+                    </ul>
+                </div>
+
+                <!-- Financial Tips -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Financial Tips</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Improve Credit Score</a></li>
+                        <li><a href="#">EMI Planning</a></li>
+                        <li><a href="#">Debt Management</a></li>
+                        <li><a href="#">Savings Guide</a></li>
+                        <li><a href="#">Smart Borrowing</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom text-center">
+                <p><i class="fa-regular fa-copyright"></i> 2026 Loan Info. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loan Insights & Advice | Your Complete Loan Information Resource</title>
+
+    <meta name="description"
+        content="Complete loan information guide covering personal loans, business loans, home loans, vehicle loans, and agriculture loans. Learn eligibility, interest rates, benefits, and application process." />
+    <meta name="keywords"
+        content="loan information, personal loan, business loan, home loan, vehicle loan, agriculture loan, finance guide, loan eligibility, loan interest rates" />
+    <meta name="author" content="Loan Information Guide">
+    <meta name="robots" content="index, follow">
+
+    <!--My css-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" href="assets/img/company-logo.png" type="image/png">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(250, 246, 241);">
+
+    <!-- NavBar -->
+    <nav id="Navbar" class="navbar px-3 px-md-4 py-md-1">
+
+        <div class="website-name text-white">
+            <div class="logo-img">
+                <img src="assets/img/company-logo.png" alt="">
+            </div>
+
+            <a href="index.html" style="text-decoration: none;">
+                <h2 class="logo-style ps-3"> LOAN INFO </h2>
+            </a>
+        </div>
+
+        <div class="navbar-item">
+            <div class="navbar-menu pe-5">
+                <ul class="navbar-menu-links text-white">
+                    <a href="index.html">
+                        <li> Personal Loan </li>
+                    </a>
+
+                    <a href="loan_home.html">
+                        <li> Home Loan </li>
+                    </a>
+
+                    <a href="loan_vechicle.html">
+                        <li> Vehicle Loan </li>
+                    </a>
+
+                    <a href="loan_agriculture.html">
+                        <li> Agriculture Loan </li>
+                    </a>
+
+                    <a href="loan_business.html">
+                        <li> Business Loan </li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="bi bi-list"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <aside class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <i class="fa-solid fa-user"></i> <a href="index.html"> Personal Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-house"></i> <a href="loan_home.html"> Home Loan </a> </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-car"></i> <a href="loan_vechicle.html"> Vehicle Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-tractor"></i> <a href="loan_agriculture.html">
+                    Agriculture Loan </a>
+            </p>
+            <p class="side-navbar-link"> <i class="fa-solid fa-building"></i> <a href="loan_business.html"> Business
+                    Loan </a> </p>
+        </div>
+    </aside>
+
+    <!-- Page Header -->
+    <section class="page-header px-3">
+        <div class="page-header-content">
+            <h4>HOME LOAN INSIGHTS</h4>
+            <h1>Understanding Home Loans</h1>
+        </div>
+    </section>
+
+    <!-- Home Loan Section -->
+    <section class="home-loan-section px-2">
+        <div class="container position-relative" style="z-index: 1;">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-9">
+                    <h2 class="section-title fw-bold">Dream Home? Make It Reality</h2>
+                    <p class="section-subtitle mb-4">
+                        Attractive interest rates • Flexible repayment options • Minimal documentation •
+                        Quick approval process
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <!-- Left - Big Image + Content -->
+                <div class="col-lg-6">
+                    <div class="loan-card">
+                        <div class="loan-img-wrapper">
+                            <img src="asset/img/home_loan.jpg" alt="Modern family home exterior">
+                        </div>
+
+                        <div class="p-4 p-lg-5">
+                            <span class="feature-badge">Starting @ 8.40%* p.a.</span>
+
+                            <h3 class="fw-bold my-3" style="color: #1a3c6d;">
+                                Own Your <span class="highlight-text">Dream Home</span> Today
+                            </h3>
+
+                            <p class="text-muted mb-4">
+                                Whether it's your first home, an upgrade to a bigger space, or an investment property —
+                                our home loan solutions are designed to match your life goals with affordable EMIs and
+                                flexible terms.
+                            </p>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">₹</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Upto 90%</h6>
+                                            <small>Funding</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">⏱</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">30 Min</h6>
+                                            <small>Approval*</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">📄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Minimal Docs</h6>
+                                            <small>Paperless process</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="benefit-item">
+                                        <div class="benefit-icon">🔄</div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Flexible Tenor</h6>
+                                            <small>Upto 30 years</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-apply text-white fw-bold shadow-lg">
+                                Check Eligibility →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right - Smaller cards / features -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+
+                        <img src="asset/img/home_loan2.jpeg" alt="" style="width: 100%; height: 230px; border-radius: 20px;">
+
+                        <div class="col-12">
+                            <div class="loan-card p-4 p-lg-5">
+                                <h4 class="fw-bold mb-4" style="color: #1a3c6d;">Why Choose Our Home Loan?</h4>
+
+                                <ul class="list-unstyled feature-list">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Balance Transfer Facility with Top-up</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>No Prepayment / Foreclosure Charges (Floating Rate)</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Step-up / Step-down EMI options available</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="me-3 text-success fs-4">✓</span>
+                                        <span>Tranche-based disbursement for under-construction properties</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">8.40%</h4>
+                                <h5 class="fw-bold">Interest Rate</h5>
+                                <small class="text-muted">Starting from</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <div class="loan-card p-4 text-center">
+                                <h4 class="fw-bold mb-2" style="color: #2f6ea8;">₹75 Lakhs+</h4>
+                                <h5 class="fw-bold">Disbursed Daily</h5>
+                                <small class="text-muted">Across India</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Content Section  -->
+    <section class="text-content-section px-2 pt-3 pb-5">
+        <div class="container">
+            <h2>Smart Tips for Choosing a Home Loan</h2>
+
+            <p>
+                Buying a home is one of the biggest financial decisions you will ever make, and understanding home loans
+                is crucial.
+                A home loan, also known as a mortgage, allows you to borrow money to purchase a property and pay it back
+                over time with interest.
+                It’s important to know the types of home loans available, including fixed-rate loans, adjustable-rate
+                mortgages, and government-backed loans.
+                Understanding the interest rates, repayment tenure, and eligibility criteria will help you make an
+                informed decision.
+            </p>
+
+            <p>
+                Before applying for a home loan, it is recommended to check your credit score and improve it if
+                necessary, as it can significantly impact the interest rates you are offered.
+                Compare different banks and financial institutions to find the most suitable home loan for your needs.
+                Always calculate the total cost of the loan, including fees and interest, to avoid any surprises in the
+                future.
+                Additionally, consider consulting a financial advisor or mortgage specialist to guide you through the
+                process.
+            </p>
+
+            <p>
+                Managing your home loan effectively involves timely payments, understanding prepayment options, and
+                being aware of penalties for late payments.
+                By educating yourself about home loans and carefully planning your finances, you can secure your dream
+                home without unnecessary financial stress.
+            </p>
+
+            <p>
+                It is also essential to understand the documentation required for a home loan application, such as proof
+                of income,
+                identity, address, and property-related documents. Having these documents ready in advance can speed up
+                the approval
+                process and reduce delays. Lenders may also evaluate your employment stability and existing financial
+                obligations
+                before approving the loan.
+            </p>
+
+            <p>
+                Loan-to-Value (LTV) ratio is another important factor to consider when choosing a home loan. It
+                determines how much
+                of the property’s value the lender is willing to finance. A lower LTV ratio usually results in better
+                interest rates
+                and lower risk for both the borrower and the lender. Paying a higher down payment can also reduce your
+                overall loan
+                burden.
+            </p>
+
+            <p>
+                Home loan insurance is an optional but beneficial feature that protects your family from financial
+                difficulties in
+                case of unforeseen events. While it may slightly increase your monthly expenses, it offers peace of mind
+                by ensuring
+                that the loan does not become a burden on your loved ones.
+            </p>
+
+            <p>
+                Finally, staying informed about market trends and interest rate changes can help you make smarter
+                decisions, such as
+                refinancing your home loan at a lower rate in the future. With proper planning, discipline, and
+                awareness, a home
+                loan can be a powerful tool to achieve long-term financial stability and homeownership goals.
+            </p>
+
+            <p>
+                Home loans are long-term financial commitments, so it is important to evaluate your repayment capacity
+                carefully
+                before choosing a loan amount. Your monthly EMI should be comfortable and should not affect your
+                essential living
+                expenses. Financial experts often recommend that your home loan EMI should not exceed a fixed percentage
+                of your
+                monthly income to maintain a healthy financial balance.
+            </p>
+
+            <p>
+                Interest rates play a major role in determining the overall cost of a home loan. Even a small difference
+                in interest
+                rates can lead to a significant change in the total amount paid over the loan tenure. Borrowers should
+                understand
+                the difference between fixed and floating interest rates and choose the option that best suits their
+                financial
+                stability and market conditions.
+            </p>
+
+            <p>
+                Home loan tenure can range from several years to a few decades, depending on the lender and borrower’s
+                eligibility.
+                A longer tenure reduces the EMI burden but increases the total interest paid, while a shorter tenure
+                increases EMI
+                amounts but helps close the loan faster. Choosing the right tenure is crucial for effective financial
+                planning.
+            </p>
+
+            <p>
+                Many lenders offer home loan balance transfer facilities that allow borrowers to move their existing
+                loan to another
+                bank or financial institution offering lower interest rates. This option can help reduce EMI payments or
+                loan tenure,
+                but it is important to consider processing fees and other associated costs before opting for a balance
+                transfer.
+            </p>
+
+            <p>
+                Prepayment and foreclosure options allow borrowers to repay a portion or the entire home loan before the
+                end of the
+                tenure. Making prepayments whenever possible can significantly reduce the interest burden. However,
+                borrowers should
+                be aware of any prepayment penalties or conditions set by the lender.
+            </p>
+
+            <p>
+                Tax benefits are one of the major advantages of taking a home loan. Borrowers may be eligible for tax
+                deductions on
+                both principal repayment and interest paid, subject to applicable laws and limits. Understanding these
+                benefits can
+                help in better financial and tax planning.
+            </p>
+
+            <p>
+                Home loans can be used for various purposes, including purchasing a new house, constructing a home,
+                renovating an
+                existing property, or buying a plot of land. Each type of home loan has specific terms and conditions,
+                so it is
+                important to choose the loan that matches your property goals.
+            </p>
+
+            <p>
+                Proper home loan management involves tracking EMIs, reviewing loan statements regularly, and staying
+                updated on
+                lender communications. By maintaining a disciplined repayment schedule and making informed decisions,
+                borrowers can
+                enjoy the benefits of home ownership while maintaining long-term financial stability.
+            </p>
+
+            <p>
+                Eligibility criteria for a home loan are determined based on factors such as age, income, employment
+                type, credit
+                history, and existing financial liabilities. Salaried individuals, self-employed professionals, and
+                business owners
+                may have different eligibility requirements. Understanding these criteria in advance helps increase
+                approval chances
+                and avoids unnecessary rejections.
+            </p>
+
+            <p>
+                Credit score is one of the most important factors in home loan approval. A higher credit score indicates
+                responsible
+                financial behavior and increases the chances of getting lower interest rates. Paying bills on time,
+                reducing
+                outstanding debts, and avoiding frequent loan applications can help maintain a good credit profile.
+            </p>
+
+            <p>
+                Down payment is the portion of the property value that the borrower must pay upfront. Most lenders
+                require a minimum
+                down payment, and a higher down payment reduces the loan amount and overall interest burden. Planning
+                savings early
+                for the down payment can make the home loan process smoother.
+            </p>
+
+            <p>
+                Processing fees and additional charges are often applied during home loan approval. These may include
+                legal fees,
+                valuation charges, documentation fees, and administrative costs. Borrowers should carefully review the
+                fee structure
+                to understand the total cost involved in availing a home loan.
+            </p>
+
+            <p>
+                Disbursement of a home loan may happen in stages, especially for under-construction properties. The
+                lender releases
+                funds based on construction progress, ensuring proper utilization of the loan amount. Borrowers should
+                stay in
+                coordination with both the builder and the lender during this phase.
+            </p>
+
+            <p>
+                Choosing the right lender is as important as selecting the right property. Apart from interest rates,
+                factors such
+                as customer service, transparency, digital access, and flexibility in repayment options should be
+                considered when
+                selecting a home loan provider.
+            </p>
+
+            <p>
+                Home loans can also be jointly taken with a spouse or family member, which can increase eligibility and
+                loan amount.
+                Joint loans may offer better interest rates and shared tax benefits, making them a practical option for
+                many
+                borrowers.
+            </p>
+
+            <p>
+                Regularly reviewing your home loan and refinancing when better options are available can help optimize
+                your
+                finances. Staying informed and proactive ensures that your home loan remains affordable and aligned with
+                your
+                long-term financial goals.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="loan-footer px-2">
+        <div class="container">
+            <div class="row">
+
+                <!-- About Loan -->
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Loan Information</h5>
+                    <p class="pe-0 pe-md-3">
+                        Simple and transparent loan information to help you understand eligibility,
+                        interest rates, repayment tenure, and monthly EMI planning before applying.
+                        Learn how different loan types work, what documents are required, and how
+                        responsible borrowing can help you manage your finances better without
+                        unnecessary stress.
+                    </p>
+                </div>
+
+                <!-- Loan Types -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Types</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"> Personal Loan </a></li>
+                        <li><a href="loan_home.html"> Home Loan </a></li>
+                        <li><a href="loan_vechicle.html"> Vehicle Loan </a></li>
+                        <li><a href="loan_agriculture.html"> Agriculture Loan </a></li>
+                        <li><a href="loan_business.html"> Business Loan </a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Resources -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Eligibility Criteria</a></li>
+                        <li><a href="#">Interest Rates</a></li>
+                        <li><a href="#">EMI Calculator</a></li>
+                        <li><a href="#">Repayment Guide</a></li>
+                        <li><a href="#">Loan Documents</a></li>
+                    </ul>
+                </div>
+
+                <!-- Loan Process -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Loan Process</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Apply Online</a></li>
+                        <li><a href="#">Verification</a></li>
+                        <li><a href="#">Approval Time</a></li>
+                        <li><a href="#">Disbursement</a></li>
+                    </ul>
+                </div>
+
+                <!-- Financial Tips -->
+                <div class="col-md-2 col-6 mb-4">
+                    <h5 class="fw-bold">Financial Tips</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Improve Credit Score</a></li>
+                        <li><a href="#">EMI Planning</a></li>
+                        <li><a href="#">Debt Management</a></li>
+                        <li><a href="#">Savings Guide</a></li>
+                        <li><a href="#">Smart Borrowing</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom text-center">
+                <p><i class="fa-regular fa-copyright"></i> 2026 Loan Info. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
+
+</body>
+
+</html>
